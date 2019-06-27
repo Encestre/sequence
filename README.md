@@ -8,8 +8,9 @@ The configuration file first describe audio fragments availlable.
 Then a single line describe the playing sequence, allowing looping and repetition.
 
 
-# Configuration file usage
+##  Configuration file usage
 
+```
 [lib]
 # Define the audio files library
 # audioName:filename
@@ -29,3 +30,4 @@ Then a single line describe the playing sequence, allowing looping and repetitio
 # symbols are separed by space except for repetition     
 # A B C
 # A(2) < B C >(3)
+```
